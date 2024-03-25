@@ -1,0 +1,11 @@
+<!ELEMENT shop (product+)>
+<!ELEMENT product (type, singer, title, price, image?, params?)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT singer (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT params (param+)>
+<!ELEMENT param (#PCDATA)>
+<!ATTLIST product id ID #REQUIRED>
+<!ATTLIST param pname CDATA #REQUIRED>

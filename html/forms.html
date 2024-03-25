@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../style.css">
+	<title>Lab 5</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+			<a class="logo" href="home.html"><img src="../img/logo.png" alt="SPT-TOWNDIRTY"></a>
+			<p>best records  music  cds  singers  albums  hits  tracks  spt-towndirty  sound  music best records  music  cds  singers   albums  hits  tracks  spt-towndirty</p>
+		</header>
+		<main>
+			<nav>
+				<ul>
+					<li><a href="forms.html">sign in/up</a></li>
+					<li><a href="redirection.html">about us</a></li>
+					<li><a href="animation.html">info-cd<span>s</span></a></li>
+					<li><a href="redirection.html">contacts</a></li>
+					<li><a href="redirection.html">records</a></li>
+					<li><a href="redirection.html">news</a></li>
+				</ul>
+			</nav>
+			<div class="content">
+				<div class="form-err"></div>
+				<form onsubmit="return checkForLatin()">
+					<div class="grid-item">
+						<label for="first_name">First Name:</label>
+						<input type="text" id="first_name" name="first_name" required>
+					</div>
+					<div class="grid-item">
+						<label for="last_name">Last Name:</label>
+						<input type="text" id="last_name" name="last_name" required>
+					</div>
+					<div class="grid-item">
+						<label for="patronymic">Patronymic:</label>
+						<input type="text" id="patronymic" name="patronymic" required>
+					</div>
+					<div class="grid-item">
+						<label for="age">Age:</label>
+						<select id="age" name="age">
+							<option value="until16">until 16</option>
+							<option value="16-21">16-21</option>
+							<option value="21-27">21-27</option>
+							<option value="27-35">27-35</option>
+							<option value="35-45">35-45</option>
+							<option value="45-55">45-55</option>
+							<option value="55+">55+</option>
+						</select>
+					</div>
+					<div class="grid-item">
+						<label for="about">About self:</label>
+						<textarea id="about" name="about"></textarea>
+					</div>
+					<div class="grid-item">
+						<button type="submit">Send</button>
+					</div>
+				</form>
+			</div>
+		</main>
+	</div>
+	<script src="../js/script.js"></script>
+</body>
+</html>

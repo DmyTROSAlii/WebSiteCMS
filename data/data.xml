@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<!DOCTYPE shop SYSTEM "data.dtd">
+<shop>
+	<product id="N0">
+		<type>Альбом</type>
+		<singer>Jamala</singer>
+		<title>1944</title>
+		<price>800.00</price>
+		<image>img/shop/Jamala_1944.jpg</image>
+		<params>
+			<param pname="year">2016</param>
+			<param pname="length">31:12</param>
+			<param pname="genre">Electro</param>
+		</params>
+	</product>
+	<product id="N1">
+		<type>Пісня</type>
+		<singer>Руслана</singer>
+		<title>Дикі танці</title>
+		<price>250.00</price>
+		<image>img/shop/ruslana_duki-tanci.jpg</image>
+		<params>
+			<param pname="year">2004</param>
+			<param pname="length">3:17</param>
+			<param pname="genre">Pop</param>
+		</params>
+	</product>
+	<product id="N2">
+		<type>Пісня</type>
+		<singer>Ольга Цибульська</singer>
+		<title>ЦвіТи</title>
+		<price>649.99</price>
+		<image>img/shop/flours.jpg</image>
+		<params>
+			<param pname="year">2023</param>
+			<param pname="length">3:17</param>
+			<param pname="genre">Pop</param>
+		</params>
+	</product>
+	<product id="N3">
+		<type>Пісня</type>
+		<singer>Loreen</singer>
+		<title>Euphoria</title>
+		<price>320.00</price>
+		<image>img/shop/loreen_euphoria.jpg</image>
+		<params>
+			<param pname="year">2012</param>
+			<param pname="length">3:11</param>
+			<param pname="genre">Pop</param>
+		</params>
+	</product>
+	<product id="N4">
+		<type>Пісня</type>
+		<singer>Єлена Папарізу</singer>
+		<title>My Number One (Greece)</title>
+		<price>215.50</price>
+		<image>img/shop/helena_number-one.jpg</image>
+		<params>
+			<param pname="year">2004</param>
+			<param pname="length">2:56</param>
+			<param pname="genre">Rock</param>
+		</params>
+	</product>
+	<product id="N5">
+		<type>Пісня</type>
+		<singer>KAZKA</singer>
+		<title>Плакала</title>
+		<price>399.99</price>
+		<image>img/shop/kazka_plakala.jpg</image>
+		<params>
+			<param pname="year">2018</param>
+			<param pname="length">4:37</param>
+			<param pname="genre">Pop</param>
+		</params>
+	</product>
+	<product id="N6">
+		<type>Альбом</type>
+		<singer>KAZKA</singer>
+		<title>KARMA</title>
+		<price>999.99</price>
+		<image>img/shop/kazka_karma.jpg</image>
+		<params>
+			<param pname="year">2018</param>
+			<param pname="length">35:00</param>
+			<param pname="genre">Pop</param>
+		</params>
+	</product>
+	<product id="N7">
+		<type>Пісня</type>
+		<singer>Монс Сельмерлев</singer>
+		<title>Heroes</title>
+		<price>320.00</price>
+		<image>img/shop/mans_heroes.jpg</image>
+		<params>
+			<param pname="year">2015</param>
+			<param pname="length">3:11</param>
+			<param pname="genre">Pop</param>
+		</params>
+	</product>
+	<product id="N8">
+		<type>Пісня</type>
+		<singer>Білан Діма</singer>
+		<title>Believe</title>
+		<price>294.99</price>
+		<image>img/shop/dima_believe.jpg</image>
+		<params>
+			<param pname="year">2008</param>
+			<param pname="length">4:04</param>
+			<param pname="genre">Pop</param>
+		</params>
+	</product>
+	<product id="N9">
+		<type>Пісня</type>
+		<singer>Лена Маєр-Ландрут</singer>
+		<title>My Cassette Player</title>
+		<price>340.00</price>
+		<image>img/shop/lena_my.jpg</image>
+		<params>
+			<param pname="year">2010</param>
+			<param pname="length">3:13</param>
+			<param pname="genre">Pop</param>
+		</params>
+	</product>
+	<product id="N10">
+		<type>Пісня</type>
+		<singer>ABBA</singer>
+		<title>Waterloo</title>
+		<price>210.00</price>
+		<image>img/shop/abba_waterloo.jpg</image>
+		<params>
+			<param pname="year">1974</param>
+			<param pname="length">2:38</param>
+			<param pname="genre">Pop</param>
+		</params>
+	</product>
+</shop>

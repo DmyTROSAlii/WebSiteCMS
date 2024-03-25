@@ -1,0 +1,236 @@
+@import url(https://fonts.googleapis.com/css?family=Ruwudu:regular&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:300&display=swap);
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+	font-family: Ruwudu;
+	color: #fff;
+	overflow-x: hidden;
+}
+
+.wrapper {
+	width: 780px;
+	margin: 0 auto;
+}
+
+/*------------------------HEADER-------------------------*/
+
+header {
+	background: url('img/header.jpg') no-repeat;
+	padding-top: 25px;
+	min-height: 115px;
+}
+
+.logo {
+	margin-left: 218px;
+}
+
+header>p {
+	font-size: 13px;
+	float: left;
+	margin: 55px 8px 0;
+}
+
+/*------------------------MAIN-------------------------*/
+
+main {
+	background: url('img/disk.jpg') no-repeat;
+	background-position: 510px 0;
+	min-height: 850px;
+}
+
+/*------------------------NAVBAR-------------------------*/
+
+nav {
+	background: url('img/nav.jpg') no-repeat;
+	min-width: 141px;
+	float: left;
+	margin-left: 10px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+ul {
+	padding: 3px 0 0 0;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+li {
+	list-style: none;
+	font-size: 12px;
+}
+
+li>a:hover {
+	color: magenta;
+	border-bottom: 1px solid magenta;
+}
+
+li:not(:first-child) {
+	margin-top: 17px;
+}
+
+li:last-child {
+	margin-top: 20px;
+}
+
+span {
+	text-transform: lowercase;
+}
+
+/*----------------------CONTENT--------------------*/
+
+.content {
+	font-family: 'Noto Sans';
+	font-weight: 300;
+	line-height: 1.2;
+	font-size: 12px;
+	float: right;
+	margin-right: 105px;
+}
+
+section {
+	max-width: 509px;
+}
+
+section>img {
+	float: right;
+	margin: 0 0 0 5px;
+}
+
+section:nth-child(2n)>img {
+	float: left;
+	margin: 8px 15px 5px 0;
+}
+
+section>p {
+	padding-top: 5px;
+}
+
+/*----------------------FORMS--------------------*/
+
+.form-err {
+	font-size: 18px;
+	color: red;
+}
+
+.table {
+	width: 400px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	font-size: 16px;
+	margin: 20px 30px 0 0;
+	row-gap: 15px;
+	column-gap: 10px;
+}
+
+.grid-item:nth-child(n + 6) {
+	grid-column: 1 / 3;
+}
+
+label {
+	display: block;
+	margin-top: 10px;
+}
+
+input,
+select,
+textarea {
+	width: calc(100% - 30px);
+	padding: 8px;
+	border: 1px solid #ccc;
+	background-color: #303030;
+	color: #b4b4b4;
+	border-radius: 5px;
+}
+
+select {
+	width: calc(100% - 15px);
+}
+
+button {
+	display: block;
+	width: calc(100% - 10px);
+	padding: 10px;
+	background-color: #303030;
+	color: #b4b4b4;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+button:hover {
+	background-color: #717273;
+}
+
+/*----------------------REDIRECTION--------------------*/
+
+.redirect-timer {
+	font-size: 20px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.redirect-timer span {
+	color: brown;
+}
+
+/*----------------------DIRECTORY--------------------*/
+
+.table > input:hover {
+	text-transform: uppercase;
+}
+
+.table_dir, .buttons-sort {
+	padding-left: 100px;
+}
+
+td:not(#name_dir){
+	padding-top: 35px;
+}
+
+/*----------------------SHOP--------------------*/
+
+td {
+	text-align: center;
+}
+
+td:nth-child(3) {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+td:nth-child(4) {
+	max-width: 100px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+td:nth-child(5) {
+	max-width: 100px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+td:nth-child(6) {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+td button {
+	max-width: 50px;
+	text-align: center;
+	margin-left: 20px;
+	margin-top: 0px;
+}
+
+td button:hover {
+	background-color: #423333;
+	color: #ccc;
+}
