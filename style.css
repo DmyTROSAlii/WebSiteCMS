@@ -131,7 +131,8 @@ section>p {
 
 .table.sign-in {
 	grid-template-columns: 1fr 3fr;
-	margin-top: 70px;
+	margin: 20px 0 0 20px;
+	text-align: left;
 }
 
 .grid-item:nth-child(n + 6) {
@@ -199,7 +200,7 @@ button:hover {
 
 /*----------------------DIRECTORY--------------------*/
 
-.table > input:hover {
+.table.dir > input:hover {
 	text-transform: uppercase;
 }
 
