@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
-	<title>Lab 6</title>
+	<title>CMS</title>
 </head>
 <?php 
 if (basename($_SERVER['PHP_SELF']) === 'animation.php') echo '<body 
