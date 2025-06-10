@@ -88,7 +88,7 @@ A simple PHP-based Content Management System (CMS) for a music records website. 
 
 1. **Clone or Download the Repository**
    ```sh
-   git clone <your-repo-url>
+   git clone https://github.com/DmyTROSAlii/WebSiteCMS.git
    ```
 
 2. **Place the Project in Your Web Server Directory**
