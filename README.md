@@ -72,7 +72,7 @@ A simple PHP-based Content Management System (CMS) for a music records website. 
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠 Technologies Used
 
 - **PHP** (Core logic, backend, templating)
 - **HTML5** (Markup)
